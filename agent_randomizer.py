@@ -3,7 +3,7 @@
 import random
 from nicegui import ui
 
-filepath = "/Users/Hunter/PycharmProjects/val_agent_randomizer/images/"
+filepath = "/Users/Hunter/PycharmProjects/valorant-agent-randomizer/images/"
 
 master_list = ['Jett', 'Neon', 'Phoenix', 'Raze', 'Reyna', 'Yoru',
 	'Breach', 'Fade', 'Gekko', 'KAYO', 'Skye', 'Sova',
@@ -165,7 +165,7 @@ ui.link('GitHub', 'https://github.com/hdg630/val_agent_randomizer')
 ### Launch the user interface (dark mode)
 dark = ui.dark_mode()
 dark.enable()
-ui.run()
+ui.run(title='Valorant agent randomizer', on_air=True)
 	
 
 # COMMENT AS NEEDED: Buttons to display the lists (in terminal)
