@@ -160,7 +160,7 @@ with ui.row():
 	
 		
 			
-ui.link('GitHub', 'https://github.com/hdg630/val_agent_randomizer')
+ui.link('GitHub', 'https://github.com/hdg630/valorant-agent-randomizer')
 	
 ### Launch the user interface (dark mode)
 dark = ui.dark_mode()
