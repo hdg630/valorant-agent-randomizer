@@ -17,9 +17,9 @@ ui.label('Valorant agent randomizer').style('color: #888; font-size: 300%; font-
 
 
 def toggle_cb(agent_name):
-    if (agent_name in temp_list):
+    if agent_name in temp_list:
         temp_list.remove(agent_name)
-    elif (agent_name not in temp_list):
+    elif agent_name not in temp_list:
         temp_list.append(agent_name)
 
 
