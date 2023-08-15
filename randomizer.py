@@ -36,7 +36,7 @@ def agent_ui(agent_ui_name):
         ui.switch(text=agent_ui_name, value=True, on_change=lambda: toggle_cb(agent_ui_name))
 
 
-### Duelist class, column
+# Sort agent classes by column
 with ui.row():
     with ui.column():
         class_column('Duelist')
